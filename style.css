@@ -143,8 +143,15 @@ display: none;
       width: 100%;
       margin: 0 auto;
     }
-    .search {
-      width: 100%;
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width:150px;
+    }
+    .search button{
+        width: 80px;
+        height: 35px;
     }
     .weather {
       width: 100%;
@@ -152,53 +159,70 @@ display: none;
     .details {
       display: flex;
       flex-direction: column;
+      justify-content:space-around;
     }
     .col {
       width: 100%;
       margin-bottom: 10px;
     }
-  }
+}
 
-  @media screen and (max-width: 450px) {
-    .card {
+@media screen and (max-width: 450px) {
+
+    .card{
+      width: 100%;
+      margin: 0 auto;
+    
+    }
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width:150px;
+    }
+    .search button{
+        width: 80px;
+        height: 35px;
+    }
+    .weather{
+      width: 100%;
+    }
+    .details{
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+    }
+    .col{
+      width: 50%;
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .card{
       width: 100%;
       margin: 0 auto;
     }
-    .search {
+    .search{
       width: 100%;
     }
-    .weather {
-      width: 100%;
+    .search input{
+        width:140px;
     }
-    .details {
-      display: flex;
-      flex-direction: column;
-    justify-content:space-between;
+    .search button{
+        width: 80px;
+        height: 35px;
     }
-    .col {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  }
-
-  @media screen and (max-width: 250px) {
-    .card {
-      width: 100%;
-      margin: 0 auto;
-    }
-    .search {
-      width: 100%;
-    }
-    .weather {
+    .weather{
       width: 100%;
     }
     .details {
       display: flex;
       flex-direction: column;
-    justify-content:space-between;
+      justify-content:space-around;
     }
-    .col {
+    .col{
       width: 100%;
       margin-bottom: 10px;
     }
-  }
+}
