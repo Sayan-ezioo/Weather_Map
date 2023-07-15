@@ -12,7 +12,7 @@ async function checkWeather(city){
    if (response.status == 404){
     document.querySelector("#show-message").style.display = "block";
     document.querySelector(".weather").style.display = "none";
-    document.querySelector(".message").innerHTML = '<i class = "fa-solid fa-circle-xmark"></i>Invalid City or Area name';
+    document.querySelector(".message").innerHTML = '<i class = "fa-solid fa-circle-xmark"></i>Invalid City or Area';
    }
  else{
          document.querySelector("#show-message").style.display = "none";
