@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayan's Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City or Area to Check Weather">
+            <button><img src="images/search.png"></button> 
+        </div>
+        <div class="message" id="show-message"></div>
+        <div class="weather">
+            <img src="images/mist.png" class="weather-icon">
+            <h1 class="temp"> 22°C </h1>
+            <h3 class="feels-like">19°C</h3>
+            <h2 class="city"> Kolkata </h2>
+            <div class="details">
+                <div class="col">
+                  <img src="images/humidity.png">
+                  <div class="div">
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                  </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div class="div">
+                      <p class="wind">12 km/h</p>
+                      <p>Wind</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+ <script src="script.js"></script>   
+</body>
+</html>
